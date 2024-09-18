@@ -186,6 +186,51 @@ BookmarkData){
     
                 setBookTitle(metadata.title);
 
+                var bookRights = metadata.rights;
+                var bookRelease = metadata.pubdate;
+                var bookPublisher = metadata.publisher;
+                var rightsText = "Dette verket er lisensiert under ";
+                
+                //$('#show-rights').css({'display': 'block'});
+
+                if (bookRights.includes("Copyright") || bookRights.includes("All rights reserved")) {
+                    rightsText="Copyright " + bookRelease + " " + bookPublisher;
+                }
+                else if (bookRights.includes("Public Domain") || bookRights.includes("CC-0")) {
+                    rightsText+="<a href='https://creativecommons.org/publicdomain/zero/1.0/deed.no' target_blank'>CC-0</a>";
+                }
+                else if (bookRights.includes("CC BY-NC-ND")) {
+                    rightsText+="<a href='https://creativecommons.org/licenses/by-nc-nd/4.0/deed.no' target_blank'>CC BY-NC-ND</a>";
+                }
+                else if (bookRights.includes("CC BY-ND")) {
+                    rightsText+="<a href='https://creativecommons.org/licenses/by-nd/4.0/deed.no' target_blank'>CC BY-ND</a>";
+                }
+                else if (bookRights.includes("CC BY-NC-SA")) {
+                    rightsText+="<a href='https://creativecommons.org/licenses/by-nc-sa/4.0/deed.no' target_blank'>CC BY-NC-SA</a>";
+                }
+                else if (bookRights.includes("CC BY-NC")) {
+                    rightsText+="<a href='https://creativecommons.org/licenses/by-nc/4.0/deed.no' target_blank'>CC BY-NC</a>";
+                }
+                else if (bookRights.includes("CC BY-SA")) {
+                    rightsText+="<a href='https://creativecommons.org/licenses/by-sa/4.0/deed.no' target_blank'>CC BY-SA</a>";
+                }
+                else if (bookRights.includes("CC BY")) {
+                    rightsText+="<a href='https://creativecommons.org/licenses/by/4.0/deed.no' target_blank'>CC BY</a>";
+                }
+                else {
+                    $('#show-rights').css({'display': 'none'});
+                }
+                
+                $('#readium-toc-body').append('<div class="rights" id="rights"><span class="license-type"></span></div>');
+
+                if (bookPublisher != "" && !(bookRights.includes("Copyright") || bookRights.includes("All rights reserved"))) {
+                    $(".license-type").html(rightsText + ". Det er tilskrevet " + bookPublisher + ".");
+                }
+                else {
+                    $(".license-type").html(rightsText + ".");
+                }
+                $('#show-rights').css({'display': 'inline'});
+
                 $("#left-page-btn").unbind("click");
                 $("#right-page-btn").unbind("click");
                 var $pageBtnsContainer = $('#readium-page-btns');

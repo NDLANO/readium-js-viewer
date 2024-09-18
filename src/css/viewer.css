@@ -628,3 +628,38 @@ ul.nav-tabs li:not(.active) button:hover
 #zoom-menu .active-zoom .glyphicon-ok{
   display: inline-block;
 }
+.close {
+  color: #184673 !important;
+}
+
+#show-rights {
+  padding: 10px;
+  height: 100px;
+  width: 250px;
+  font-family: "Source Sans";
+  font-weight: 400;
+  font-size: 14px;
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  background-color:rgba(255, 255, 255, 0.9);
+  border: 1px solid #BFBFBF;
+  box-shadow: 5px 5px 5px #aaaaaa;
+}
+#rights {
+  position: absolute;
+  display: inline-block;
+  font-family: "Source Sans";
+  font-weight: 400;
+  font-size: 14px;
+  width: 30%;
+  bottom: 0%;
+  padding: 20px;
+  background: #f8f8f8;
+  border-right: solid 2px rgba(0,0,0,.15);
+}
+
+#show-rights img{
+  width: 100px;
+  height: auto;
+}
