@@ -65,6 +65,10 @@ if (typeof getFontFaces != "undefined") { // defined externally
     fontsArray = getFontFaces(HTTPServerRootFolder + "/src/fonts/");
 }
 
+var languageArray = ["nb_NO", "en_US"];
+
+var setLanguage = "en_US";
+
 // MUST BE *SINGLE* CALL TO require.config() FOR ALMOND (SINGLE BUNDLE) TO WORK CORRECTLY!!!
 require.config({
     /* http://requirejs.org/docs/api.html#config-waitSeconds */
@@ -77,6 +81,10 @@ require.config({
             'mathJaxUrl': HTTPServerRootFolder + '/node_modules/mathjax-single-file/dist/readium/MathJax.js',
 
             'fonts': fontsArray,
+
+            'languages': languageArray,
+
+            'setLanguage': setLanguage,
 
             'annotationCSSUrl': HTTPServerRootFolder + '/src/css/annotations.css',
 

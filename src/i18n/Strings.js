@@ -11,7 +11,7 @@
 //  used to endorse or promote products derived from this software without specific
 //  prior written permission.
 
-define(['text!readium_js_viewer_i18n/_locales/de/messages.json',
+define(['text!readium_js_viewer/ModuleConfig.js','text!readium_js_viewer_i18n/_locales/de/messages.json',
         'text!readium_js_viewer_i18n/_locales/es/messages.json',
         'text!readium_js_viewer_i18n/_locales/en_US/messages.json',
         'text!readium_js_viewer_i18n/_locales/fr/messages.json',
@@ -19,10 +19,11 @@ define(['text!readium_js_viewer_i18n/_locales/de/messages.json',
         'text!readium_js_viewer_i18n/_locales/id/messages.json',
         'text!readium_js_viewer_i18n/_locales/ja/messages.json',
         'text!readium_js_viewer_i18n/_locales/ko/messages.json',
+        'text!readium_js_viewer_i18n/_locales/nb_NO/messages.json',
         'text!readium_js_viewer_i18n/_locales/pt_BR/messages.json',
         'text!readium_js_viewer_i18n/_locales/zh_CN/messages.json',
         'text!readium_js_viewer_i18n/_locales/zh_TW/messages.json'],
-function(de, es, en_US, fr, it, id, ja, ko, pt_BR, zh_CN, zh_TW){
+function(moduleconfig, de, es, en_US, fr, it, id, ja, ko, nb_NO, pt_BR, zh_CN, zh_TW){
     var Strings = {};
 
     Strings['de'] = de;
@@ -33,13 +34,15 @@ function(de, es, en_US, fr, it, id, ja, ko, pt_BR, zh_CN, zh_TW){
     Strings['it'] = it;
     Strings['ja'] = ja;
     Strings['ko'] = ko;
+    Strings['nb_NO'] = nb_NO;
     Strings['pt_BR'] = pt_BR;
     Strings['zh_CN'] = zh_CN;
     Strings['zh_TW'] = zh_TW;
 
     var language = navigator.userLanguage || navigator.language;
 //FORCE HERE (for testing)
-//language="es";
+language="nb_NO";
+
     console.log("Language: [" + language + "]");
 
     var allowEnglishFallback = true;
