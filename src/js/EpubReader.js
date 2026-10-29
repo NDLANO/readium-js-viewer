@@ -690,16 +690,14 @@ BookmarkData){
             if (screenfull.isFullscreen)
             {
                 titleText = Strings.exit_fullscreen+ ' [' + Keyboard.FullScreenToggle + ']';
-                $('#buttFullScreenToggle span').removeClass('glyphicon-resize-full');
-                $('#buttFullScreenToggle span').addClass('glyphicon-resize-small');
+                $('#buttFullScreenToggle span').html("close_fullscreen");
                 $('#buttFullScreenToggle').attr('aria-label', titleText);
                 $('#buttFullScreenToggle').attr('title', titleText);
             }
             else
             {
                 titleText = Strings.enter_fullscreen + ' [' + Keyboard.FullScreenToggle + ']';
-                $('#buttFullScreenToggle span').removeClass('glyphicon-resize-small');
-                $('#buttFullScreenToggle span').addClass('glyphicon-resize-full');
+                $('#buttFullScreenToggle span').html("open_in_full");
                 $('#buttFullScreenToggle').attr('aria-label', titleText);
                 $('#buttFullScreenToggle').attr('title', titleText);
             }
@@ -763,7 +761,7 @@ BookmarkData){
             hideUI();
         }
         else{
-            hideTimeoutId = window.setTimeout(hideUI, 8000);
+            hideTimeoutId = window.setTimeout(hideUI, 3000);
         }
     }
 
@@ -1049,7 +1047,7 @@ BookmarkData){
         var setTocSize = function(){
             var appHeight = $(document.body).height() - $('#app-container')[0].offsetTop;
             $('#app-container').height(appHeight);
-            $('#readium-toc-body').height(appHeight);
+            $('#readium-toc-body').height(appHeight-35);
         };
 
         Keyboard.on(Keyboard.ShowSettingsModal, 'reader', function(){$('#settings-dialog').modal("show")});
@@ -1113,7 +1111,7 @@ BookmarkData){
         $('nav').attr("aria-label", Strings.i18n_toolbar);
         $('nav').append(ReaderNavbar({strings: Strings, dialogs: Dialogs, keyboard: Keyboard}));
         installReaderEventHandlers();
-        document.title = "Readium";
+        document.title = "Leseverktøy - NDLA";
         $('#zoom-fit-width a').on('click', setFitWidth);
         $('#zoom-fit-screen a').on('click', setFitScreen);
         $('#zoom-custom a').on('click', enableCustom);
@@ -1186,7 +1184,7 @@ BookmarkData){
                 el: "#epub-reader-frame",
                 annotationCSSUrl: moduleConfig.annotationCSSUrl,
                 mathJaxUrl : moduleConfig.mathJaxUrl,
-                fonts : moduleConfig.fonts
+                fonts : moduleConfig.fonts,
             };
 
             var readiumOptions = {

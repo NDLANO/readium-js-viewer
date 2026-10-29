@@ -1,8 +1,8 @@
 <div class="btn-group navbar-left">
         <!-- <button type="button" class="btn btn-default icon icon-show-hide"></button>  -->
-    <button id="aboutButt1" tabindex="1" type="button" class="btn icon-logo" data-toggle="modal" data-target="#about-dialog" title="{{strings.about}}" aria-label="{{strings.about}}">
+    <span id="logoBut" tabindex="1" class="logo-span icon-logo">
         <span class="icon-readium" aria-hidden="true"></span>
-    </button>
+    </span>
     
     <button id="buttShowToolBar" style="opacity:0;visibility:hidden;border:0;outline:0;padding:0;margin:0;width:1px;height=1px;" tabindex="-1" aria-hidden="true" type="button" title="access key {{keyboard.ToolbarShow}}" aria-label="access key {{keyboard.ToolbarShow}}" accesskey="{{keyboard.accesskeys.ToolbarShow}}"> </button>
     
@@ -20,8 +20,13 @@
     
 </div>
 <div class="btn-group navbar-right">
-    
 
+    <div class="btn-reading-support" style="display: none;"><span>Denne boken har lesestopp </span><label class="switch" title="{{strings.show_support}}" aria-label="{{strings.show_support}}">
+        <input type="checkbox" id="show-reading-support-button" checked>
+        <span class="slider round"></span>
+      </label><span id="reading-support-status">På</span>
+    </div>
+    <span id="toolbar">
     <div id="backgroundAudioTrack-div">
 
         <button tabindex="1" id="backgroundAudioTrack-button-play" type="button" class="btn icon-play-audio-background"  title="{{strings.i18n_audio_play_background}} [{{keyboard.BackgroundAudioPlayPause}}]"  aria-label="{{strings.i18n_audio_play_background}} [{{keyboard.BackgroundAudioPlayPause}}]" accesskey="{{keyboard.accesskeys.BackgroundAudioPlayPause}}">
@@ -38,11 +43,15 @@
     <div id="audioplayer">
         
         <button tabindex="1" id="btn-collapse-audio" type="button" class="btn icon-collapse-audio" title="{{strings.i18n_audio_collapse}} [{{keyboard.MediaOverlaysAdvancedPanelShowHide}}]" aria-label="{{strings.i18n_audio_collapse}} [{{keyboard.MediaOverlaysAdvancedPanelShowHide}}]">
-            <span class="glyphicon glyphicon-open" aria-hidden="true"></span>
+            <span class="material-icons" aria-hidden="true">
+                tune
+            </span>
         </button>
 
         <button tabindex="1" id="btn-expand-audio" type="button" class="btn icon-expand-audio" title="{{strings.i18n_audio_expand}} [{{keyboard.MediaOverlaysAdvancedPanelShowHide}}]" aria-label="{{strings.i18n_audio_expand}} [{{keyboard.MediaOverlaysAdvancedPanelShowHide}}]" accesskey="{{keyboard.accesskeys.MediaOverlaysAdvancedPanelShowHide}}">
-            <span class="glyphicon glyphicon-save" aria-hidden="true"></span>
+            <span class="material-icons" aria-hidden="true">
+                tune
+            </span>
         </button>
         
         <button tabindex="1" id="btn-previous-audio" type="button" class="btn icon-previous-audio" title="{{strings.i18n_audio_previous}} [{{keyboard.MediaOverlaysPrevious}}]" aria-label="{{strings.i18n_audio_previous}} [{{keyboard.MediaOverlaysPrevious}}]" accesskey="{{keyboard.accesskeys.MediaOverlaysPrevious}}">
@@ -197,25 +206,40 @@
         </ul>
     </div>
     <button tabindex="1" type="button" class="btn icon-library" title="{{strings.view_library}} [{{keyboard.SwitchToLibrary}}]" aria-label="{{strings.view_library}} [{{keyboard.SwitchToLibrary}}]" accesskey="{{keyboard.accesskeys.SwitchToLibrary}}">
-        <span class="glyphicon glyphicon-folder-open" aria-hidden="true"></span>
+        <span class="material-icons" aria-hidden="true">
+            menu_book
+        </span>
     </button>
     <button tabindex="1" type="button" class="btn icon-annotations" title="{{strings.highlight_selection}}" aria-label="{{strings.highlight_selection}}">
         <span class="glyphicon glyphicon-edit" aria-hidden="true"></span>
     </button>
     <button tabindex="1" type="button" class="btn icon-shareUrl" title="{{strings.share_url}}" aria-label="{{strings.share_url}}">
-        <span class="glyphicon glyphicon-link" aria-hidden="true"></span>
+        <span class="material-icons" aria-hidden="true">
+            share
+        </span>
     </button>
     <button id="tocButt" tabindex="1" type="button" class="btn icon-toc" title="{{strings.toc}} [{{keyboard.TocShowHideToggle}}]" aria-label="{{strings.toc}} [{{keyboard.TocShowHideToggle}}]" accesskey="{{keyboard.accesskeys.TocShowHideToggle}}">
-        <span class="glyphicon glyphicon-list" aria-hidden="true"></span>
+        <span class="material-icons" aria-hidden="true">
+            toc
+        </span>
     </button>
     <button id="settbutt1" tabindex="1" type="button" class="btn icon-settings" data-toggle="modal" data-target="#settings-dialog" title="{{strings.settings}} [{{keyboard.ShowSettingsModal}}]" aria-label="{{strings.settings}} [{{keyboard.ShowSettingsModal}}]" accesskey="{{keyboard.accesskeys.ShowSettingsModal}}">
-        <span class="glyphicon glyphicon-cog" aria-hidden="true"></span>
+        <span class="material-icons" aria-hidden="true">
+            settings
+        </span>
+    </button>
+    <button id="aboutButt1" tabindex="1" type="button" class="btn" data-toggle="modal" data-target="#about-dialog" title="{{strings.about}}" aria-label="{{strings.about}}">
+        <span class="material-icons" aria-hidden="true">
+            info
+        </span>
     </button>
     
     <button tabindex="1" id="buttFullScreenToggle" type="button" class="btn icon-full-screen" title="{{strings.enter_fullscreen}} [{{keyboard.FullScreenToggle}}]" aria-label="{{strings.enter_fullscreen}} [{{keyboard.FullScreenToggle}}]" accesskey="{{keyboard.accesskeys.FullScreenToggle}}">
-        <span class="glyphicon glyphicon-resize-full" aria-hidden="true"></span>
+        <span class="material-icons" aria-hidden="true">
+            open_in_full
+        </span>
     </button>
-    
+    </span>
     <!-- <button type="button" class="btn btn-default icon icon-bookmark"></button>-->
 </div>
 
