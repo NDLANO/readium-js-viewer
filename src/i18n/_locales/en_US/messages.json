@@ -21,6 +21,9 @@
   "view_library": {
     "message" : "Library"
   },
+  "show_support": {
+    "message" : "Show/Hide Reading Support"
+  },
   "highlight_selection" : {
     "message" : "Highlight Selected Text"
   },
