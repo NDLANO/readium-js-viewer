@@ -1,6 +1,6 @@
 {
   "gitHasLocalChanges": {
-    "message": "with local changes"
+    "message": "med lokale endringar"
   },
 
   "chrome_extension_name": {
@@ -10,13 +10,13 @@
     "message" : "Om"
   },
   "preview" : {
-    "message" : "Forhåndsvisning"
+    "message" : "Førehandsvising"
   },
   "list_view" : {
-    "message" : "Listevisning"
+    "message" : "Listevising"
   },
   "thumbnail_view" : {
-    "message" : "Miniatyrbildevisning"
+    "message" : "Miniatyrbilete"
   },
   "view_library": {
     "message" : "Bibliotek - NDLA"
@@ -31,13 +31,13 @@
     "message" : "Del bokmerke..."
   },
   "share_url_label" : {
-    "message" : "Bruk utklippstavlen til å kopiere/lime inn denne delbare lenken:"
+    "message" : "Bruk utklippstavla til å kopiere og lime inn denne lenkja som du kan dele:"
   },
   "toc" : {
-    "message" : "Innholdsfortegnelse"
+    "message" : "Innhaldsliste"
   },
   "settings" : {
-    "message" : "Innstillinger"
+    "message" : "Innstillingar"
   },
   "layout" : {
     "message" : "Oppsett"
@@ -46,100 +46,100 @@
     "message" : "Stil"
   },
   "enter_fullscreen" : {
-    "message" : "Vis fullskjermsvisning"
+    "message" : "Opne fullskjerm"
   },
   "exit_fullscreen" : {
-    "message" : "Lukk fullskjermsvisning"
+    "message" : "Lukk fullskjerm"
   },
   "chrome_extension_description": {
-    "message": "A reader for EPUB3 books."
+    "message": "Eit leseverktøy for EPUB3-bøker."
   },
   "ok" : {
     "message" : "Ok"
   },
   "delete_dlg_title" : {
-    "message" : "Bekreft sletting"
+    "message" : "Stadfest sletting"
   },
   "delete_progress_title" : {
     "message" : "Sletting pågår"
   },
   "delete_progress_message" : {
-    "message" : "Sletter"
+    "message" : "Slettar"
   },
   "migrate_dlg_title" : {
-    "message" : "Migrating Books"
+    "message" : "Flyttar bøker"
   },
   "migrate_dlg_message" : {
-    "message" : "Laster informasjon..."
+    "message" : "Lastar inn data ..."
   },
   "migrating" : {
-    "message" : "Migrerer"
+    "message" : "Flyttar"
   },
   "replace_dlg_title" : {
-    "message": "Conflict Detected"
+    "message": "Konflikt oppdaga"
   },
   "replace_dlg_message": {
-    "message": "If you continue, the following epub will be replaced with the one you are importing"
+    "message": "Om du held fram, blir denne EPUB-fila erstatta med den du importerer"
   },
   "import_dlg_title" : {
     "message": "Importerer EPUB"
   },
   "import_dlg_message" : {
-    "message": "Undersøker EPUB-innhold..."
+    "message": "Undersøkjer EPUB-innhaldet ..."
   },
   "storing_file" : {
-    "message": "Storing file"
+    "message": "Lagrar fil"
   },
   "err_unknown" : {
-    "message": "Unknown error. Check console for more details."
+    "message": "Ukjend feil. Sjå konsollen for meir informasjon."
   },
   "err_storage" : {
-    "message": "Unable to access storage"
+    "message": "Får ikkje tilgang til lagringsplassen"
   },
   "err_epub_corrupt" : {
-    "message": "Invalid or corrupted EPUB package"
+    "message": "Ugyldig eller øydelagd EPUB-pakke"
   },
   "err_ajax": {
-    "message": "Error in ajax request"
+    "message": "Feil i ajax-førespurnad"
   },
   "err_dlg_title" : {
-    "message": "Uforventet feil"
+    "message": "Uventa feil"
   },
   "replace" : {
     "message": "Erstatt"
   },
   "gethelp" : {
-    "message" : "If you encounter any problems, have questions, or would like to say hello, visit <a href=\"http://idpf.org/forums/readium\">our forum</a>"
+    "message" : "Har du problem eller spørsmål, eller vil du berre seie hei? Besøk <a href=\"http://idpf.org/forums/readium\">forumet vårt</a>"
   },
   "i18n_readium_library" : {
     "message" : "Bibliotek "
   },
   "i18n_loading" : {
-    "message" : "Laster bibliotek"
+    "message" : "Lastar bibliotek"
   },
   "i18n_readium_options" : {
-    "message" : "Alternativer for leseverktøy:"
+    "message" : "Alternativ for leseverktøyet:"
   },
   "i18n_save_changes" : {
-    "message" : "Lagre endringer"
+    "message" : "Lagre endringar"
   },
   "i18n_close" : {
     "message" : "Lukk"
   },
   "i18n_keyboard_shortcuts" : {
-    "message" : "Tastatursnarveier"
+    "message" : "Tastatursnarvegar"
   },
   "i18n_keyboard_reload" : {
-    "message" : "Vennligst last siden på nytt for at hurtigtaster skal ta effekt."
+    "message" : "Last sida på nytt for at tastatursnarvegane skal verke."
   },
   "i18n_keyboard_onerror_reset" : {
-    "message" : "Please note: Any shortcuts marked INVALID or DUPLICATE have been reset to original values."
+    "message" : "Merk: Snarvegar som er merkte UGYLDIG eller DUPLIKAT, er sette tilbake til standardverdiane."
   },
   "i18n_reset_key" : {
     "message" : "Nullstill tast"
   },
   "i18n_reset_key_all" : {
-    "message" : "Nullstill alle tastatursnarveier"
+    "message" : "Nullstill alle tastatursnarvegar"
   },
   "i18n_duplicate_keyboard_shortcut" : {
     "message" : "DUPLIKAT"
@@ -148,16 +148,16 @@
     "message" : "UGYLDIG"
   },
   "i18n_paginate_all" : {
-    "message" : "Paginate all reflowable ePUB content"
+    "message" : "Del alt flytande EPUB-innhald inn i sider"
   },
   "i18n_automatically" : {
-    "message" : "Automatically open *.epub urls in readium"
+    "message" : "Opne *.epub-lenkjer automatisk i leseverktøyet"
   },
   "i18n_show_warning" : {
-    "message" : "Show warning messages when unpacking EPUB files"
+    "message" : "Vis åtvaringar når EPUB-filer blir pakka ut"
   },
   "i18n_details" : {
-    "message" : "Detaljer"
+    "message" : "Detaljar"
   },
   "i18n_read" : {
     "message" : "Les"
@@ -166,19 +166,19 @@
     "message" : "Slett"
   },
   "i18n_author" : {
-    "message" : "Forfatter: "
+    "message" : "Forfattar: "
   },
   "i18n_publisher" : {
-    "message" : "Utgiver: "
+    "message" : "Utgjevar: "
   },
   "i18n_source" : {
-    "message" : "Kilde: "
+    "message" : "Kjelde: "
   },
   "i18n_pub_date" : {
     "message" : "Publisert: "
   },
   "i18n_modified_date" : {
-    "message" : "Endret: "
+    "message" : "Endra: "
   },
   "i18n_id" : {
     "message" : "ID: "
@@ -187,7 +187,7 @@
     "message" : "EPUB-versjon: "
   },
   "i18n_created_at" : {
-    "message" : "Opprettet: "
+    "message" : "Oppretta: "
   },
   "i18n_format" : {
     "message" : "Format: "
@@ -196,46 +196,46 @@
     "message" : "Lagt til: "
   },
   "i18n_unknown" : {
-    "message" : "Ukjent"
+    "message" : "Ukjend"
   },
   "i18n_sorry" : {
-    "message" : "Beklager, denne EPUB-filen inneholder ikke muligheter for lyd for dette innholdet."
+    "message" : "Beklagar, denne EPUB-fila har ikkje lyd til dette innhaldet."
   },
   "i18n_add_items" : {
-    "message" : "Legg elementer i biblioteket her!"
+    "message" : "Legg til element i biblioteket her!"
   },
   "i18n_extracting" : {
-    "message" : "extracting: "
+    "message" : "pakkar ut: "
   },
   "i18n_are_you_sure" : {
-    "message" : "Are you sure you want to permanently delete "
+    "message" : "Er du sikker på at du vil slette for godt: "
   },
   "i18n_add_book_to_readium_library" : {
-    "message" : "Add Book To Readium Library:"
+    "message" : "Legg til bok i biblioteket:"
   },
   "i18n_add_book" : {
-    "message" : "Legg til i bibliotek"
+    "message" : "Legg til i biblioteket"
   },
   "i18n_cancel" : {
     "message" : "Avbryt"
   },
   "i18n_from_the_web" : {
-    "message" : "From the web:"
+    "message" : "Frå nettet:"
   },
   "i18n_from_local_file" : {
-    "message" : "From Local File:"
+    "message" : "Frå lokal fil:"
   },
   "i18n_enter_a_url" : {
-    "message" : "Enter a URL to a .epub file"
+    "message" : "Skriv inn ein URL til ei .epub-fil"
   },
   "i18n_unpacked_directory" : {
-    "message" : "Unpacked Directory:"
+    "message" : "Utpakka mappe:"
   },
   "i18n_validate" : {
-    "message" : "Validate:"
+    "message" : "Valider:"
   },
   "i18n_confirm_that_this_book" : {
-    "message" : "Confirm that this book complies with ePUB standards"
+    "message" : "Stadfest at boka følgjer EPUB-standarden"
   },
   "i18n_single_pages" : {
     "message" : "Enkeltsider"
@@ -244,10 +244,10 @@
     "message" : "Doble sider"
   },
   "i18n_save_settings" : {
-    "message" : "Lagre innstillinger"
+    "message" : "Lagre innstillingar"
   },
   "i18n_font_size" : {
-    "message" : "Skriftstørrelse"
+    "message" : "Skriftstorleik"
   },
   "i18n_font_selection" : {
     "message" : "Skrifttype"
@@ -262,22 +262,22 @@
     "message" : "Standard"
   },
   "i18n_margins" : {
-    "message" : "Marger"
+    "message" : "Margar"
   },
   "i18n_pageMaxWidth" : {
-    "message" : "Sidebredde"
+    "message" : "Sidebreidd"
   },
   "i18n_pageMaxWidth_Disabled" : {
-    "message" : "Skrudd av (ingen maksimum skjermbredde)"
+    "message" : "Skrudd av (ingen maksimal breidd)"
   },
   "i18n_text_and_background_color" : {
     "message" : "Tekst- og bakgrunnsfarge"
   },
   "i18n_author_theme" : {
-    "message" : "Standard (bruk medfølgende stiler)"
+    "message" : "Standard (bruk stilane til boka)"
   },
   "i18n_black_and_white" : {
-    "message" : "Svart og hvitt"
+    "message" : "Svart og kvitt"
   },
   "i18n_arabian_nights" : {
     "message" : "Arabian Nights"
@@ -292,7 +292,7 @@
     "message" : "Vancouver Mist"
   },
   "i18n_display_format" : {
-    "message" : "Visningformat"
+    "message" : "Visingsformat"
   },
   "i18n_spread_auto" : {
      "message" : "Auto"
@@ -307,30 +307,30 @@
     "message" : "Dokument"
   },
   "i18n_scroll_mode_continuous" : {
-    "message" : "Sammenhengende"
+    "message" : "Samanhengande"
   },
 
   "i18n_page_transition" : {
-    "message" : "PAGE EFFECTS"
+    "message" : "Sideeffektar"
   },
   "i18n_page_transition_none" : {
-    "message" : "Disabled"
+    "message" : "Skrudd av"
   },
   "i18n_page_transition_fade" : {
-    "message" : "Fade"
+    "message" : "Ton ut"
   },
   "i18n_page_transition_slide" : {
-    "message" : "Slide"
+    "message" : "Gli"
   },
   "i18n_page_transition_swoosh" : {
-    "message" : "Swoosh"
+    "message" : "Sveip"
   },
   "i18n_page_transition_butterfly" : {
-    "message" : "Butterfly"
+    "message" : "Sommarfugl"
   },
 
   "i18n_html_readium_tm_a_project" : {
-    "message" : "<h1>Om leseverktøyet</h1><p>Dette leseverktøyet utvikles med utgangspunkt i <a href='https://readium.org/development/readium-js-overview/' target='_blank'>Readium JS</a>, som er utviklet på åpen kildekode. Readium JS er et lesesystem og JavaScript-bibliotek for visning av EPUB-publikasjoner i nettleseren. <a href='https://ndla.no' target='_blank'>NDLA</a> sin løsning utvikles og driftes av NDLA.</p><p>I enkelte av bøkene har vi lagt inn lesestopp i form av forklaringer og refleksjonsspørsmål. Disse kan du velge å skru av eller på etter eget ønske.</p><p>For bedre leseopplevelse kan det være lurt å gjøre følgende:<ul><li>Tilpass innstillingene til egne preferanser.</li><li>Skru av varsler for å unngå forstyrrelser.</li><li>Åpne boken i fullskjerm for å få best oversikt.</li></ul></p><p>På ndla.no kan du finne flere tips til <a href='https://ndla.no/nb/subject:1:54b1727c-2d91-4512-901c-8434e13339b4/topic:1:c84f9aad-c91f-4ce5-ad4f-f7755f45fbc6/resource:0a8ad2f0-7f29-44b8-872c-0b8a1f1125d1' target='_blank'>lesestrategier for digitale tekster</a>.</p><p>Har du spørsmål eller ønsker å gi oss tilbakemelding? <a href='https://ndla.zendesk.com/hc/no/requests/new' target='_blank'>Send oss en henvendelse</a>!"
+    "message" : "<h1>Om leseverktøyet</h1><p>Dette leseverktøyet er utvikla med utgangspunkt i <a href='https://readium.org/development/readium-js-overview/' target='_blank'>Readium JS</a>, som har open kjeldekode. Readium JS er eit lesesystem og JavaScript-bibliotek for vising av EPUB-publikasjonar i nettlesaren. <a href='https://ndla.no' target='_blank'>NDLA</a> utviklar og driftar løysinga.</p><p>I nokre av bøkene har me lagt inn lesestopp med forklaringar og refleksjonsspørsmål. Du kan skru dei av eller på som du vil.</p><p>For ei betre leseoppleving kan det vere lurt å gjere dette:<ul><li>Tilpass innstillingane slik du vil ha dei.</li><li>Skru av varsel så du unngår forstyrringar.</li><li>Opne boka i fullskjerm for å få best oversikt.</li></ul></p><p>På ndla.no finn du fleire tips om <a href='https://ndla.no/nn/subject:1:54b1727c-2d91-4512-901c-8434e13339b4/topic:1:c84f9aad-c91f-4ce5-ad4f-f7755f45fbc6/resource:0a8ad2f0-7f29-44b8-872c-0b8a1f1125d1' target='_blank'>lesestrategiar for digitale tekstar</a>.</p><p>Har du spørsmål eller vil du gi oss ei tilbakemelding? <a href='https://ndla.zendesk.com/hc/no/requests/new' target='_blank'>Send oss ein førespurnad</a>!"
   },
   "i18n_alt_about_logos" : {
     "message" : "HTML5, i d p f, ePUB"
@@ -339,25 +339,25 @@
     "message" : "Verktøylinje"
   },
   "i18n_toolbar_show" : {
-    "message" : "Vis verktøylinje"
+    "message" : "Vis verktøylinja"
   },
   "i18n_toolbar_hide" : {
-    "message" : "Skjul verktøylinje"
+    "message" : "Skjul verktøylinja"
   },
   "i18n_audio_play" : {
-    "message" : "Spill av"
+    "message" : "Spel av"
   },
   "i18n_audio_pause" : {
     "message" : "Pause"
   },
   "i18n_audio_play_background" : {
-    "message" : "Play background track"
+    "message" : "Spel av bakgrunnslyd"
   },
   "i18n_audio_pause_background" : {
-    "message" : "Pause background track"
+    "message" : "Set bakgrunnslyden på pause"
   },
   "i18n_audio_previous" : {
-    "message" : "Forrige lydklipp"
+    "message" : "Førre lydklipp"
   },
   "i18n_audio_next" : {
     "message" : "Neste lydklipp"
@@ -366,13 +366,13 @@
     "message" : "Lydstyrke"
   },
   "i18n_audio_volume_increase" : {
-    "message" : "Øk lydstyrke"
+    "message" : "Auk lydstyrken"
   },
   "i18n_audio_volume_decrease" : {
-    "message" : "Minsk lydstyrke"
+    "message" : "Senk lydstyrken"
   },
   "i18n_audio_time" : {
-    "message" : "Audio time cursor"
+    "message" : "Tidspunkt i lydklippet"
   },
   "i18n_audio_mute" : {
     "message" : "Lyd av"
@@ -381,52 +381,52 @@
     "message" : "Lyd på"
   },
   "i18n_audio_expand" : {
-    "message" : "Vis avansert lydkontroll"
+    "message" : "Vis avanserte lydkontrollar"
   },
   "i18n_audio_collapse" : {
-    "message" : "Skjul avansert lydkontroll"
+    "message" : "Skjul avanserte lydkontrollar"
   },
   "i18n_audio_esc" : {
-    "message" : "Forlat gjeldende lydkontekst"
+    "message" : "Forlat gjeldande lydkontekst"
   },
   "i18n_audio_rate" : {
-    "message" : "Avspillingshastighet"
+    "message" : "Avspelingsfart"
   },
   "i18n_audio_rate_increase" : {
-    "message" : "Øk avspillingshastighet"
+    "message" : "Auk avspelingsfarten"
   },
   "i18n_audio_rate_decrease" : {
-    "message" : "Minsk avspillingshastighet"
+    "message" : "Senk avspelingsfarten"
   },
   "i18n_audio_rate_reset" : {
-    "message" : "Nullstill avspillingshastighet til normal hastighet"
+    "message" : "Set avspelingsfarten tilbake til normal"
   },
   "i18n_audio_skip_disable" : {
-    "message" : "Deaktiver mulighet for å hoppe over"
+    "message" : "Slå av moglegheita for å hoppe over"
   },
   "i18n_audio_skip_enable" : {
-    "message" : "Aktiver mulighet for å hoppe over"
+    "message" : "Slå på moglegheita for å hoppe over"
   },
 
   "i18n_auto_page_turn_enable" : {
-    "message" : "Aktiver automatisk sidevending"
+    "message" : "Slå på automatisk sidevending"
   },
   "i18n_auto_page_turn_disable" : {
-    "message" : "Dektiver automatisk sidevending"
+    "message" : "Slå av automatisk sidevending"
   },
 
   "i18n_playback_scroll_enable" : {
-    "message" : "Aktiver skrolling under avspilling"
+    "message" : "Slå på rulling under avspeling"
   },
   "i18n_playback_scroll_disable" : {
-    "message" : "Deaktiver skrolling under avspilling"
+    "message" : "Slå av rulling under avspeling"
   },
 
   "i18n_audio_touch_enable" : {
-    "message" : "Aktiver trykk-for-å-spille-av"
+    "message" : "Slå på trykk for å spele av"
   },
   "i18n_audio_touch_disable" : {
-    "message" : "Dektiver trykk-for-å-spille-av"
+    "message" : "Slå av trykk for å spele av"
   },
   "i18n_audio_highlight_default" : {
     "message" : "Standard"
@@ -435,7 +435,7 @@
     "message" : "Farge på tekstbakgrunn"
   },
   "i18n_audio_sync" : {
-    "message" : "Text/audio synchronization granularity"
+    "message" : "Synkronisering av tekst og lyd"
   },
   "i18n_audio_sync_default" : {
     "message" : "Standard"
@@ -450,7 +450,7 @@
     "message" : "Avsnitt"
   },
   "i18n_page_previous" : {
-    "message" : "Forrige side"
+    "message" : "Førre side"
   },
   "i18n_page_next" : {
     "message" : "Neste side"
@@ -459,13 +459,13 @@
     "message" : "Sidenavigering"
   },
   "i18n_ChromeApp_deprecated_dialog_title" : {
-    "message" : "Readium Chrome App - WARNING"
+    "message" : "Readium Chrome-app - ÅTVARING"
   },
   "i18n_ChromeApp_deprecated_dialog_HTML" : {
-    "message" : "<p><strong><u>IMPORTANT:</u></strong></p><p>This is the final release of the Readium Chrome App. Google decided to remove support for \"apps\" in the Chrome Web Browser, as <a href=\"https://developer.chrome.com/apps/migration\" target=\"_blank\">explained here</a>.</p> <p>At some point, Google will completely disable existing Chrome apps. This is unfortunately outside of Readium's control.</p> <p>Consequently, please consider using alternative software to read EPUB files. Visit the <a href=\"https://readium.org/about/applications.html/\" target=\"_blank\">Readium website</a> for suggestions.</p>"
+    "message" : "<p><strong><u>VIKTIG:</u></strong></p><p>Dette er den siste versjonen av Readium Chrome-appen. Google har bestemt seg for å fjerne støtte for «appar» i nettlesaren Chrome, som <a href=\"https://developer.chrome.com/apps/migration\" target=\"_blank\">forklart her</a>.</p> <p>Ein gong vil Google slå av alle eksisterande Chrome-appar. Dette kan Readium dessverre ikkje gjere noko med.</p> <p>Vurder difor å bruke anna programvare for å lese EPUB-filer. Besøk <a href=\"https://readium.org/about/applications.html/\" target=\"_blank\">nettstaden til Readium</a> for forslag.</p>"
   },
   "chrome_accept_languages": {
-    "message": "$CHROME$ accepts $languages$ languages",
+    "message": "$CHROME$ godtek $languages$ språk",
     "placeholders": {
       "chrome": {
         "content": "Chrome",

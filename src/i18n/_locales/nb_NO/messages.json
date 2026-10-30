@@ -1,6 +1,6 @@
 {
   "gitHasLocalChanges": {
-    "message": "with local changes"
+    "message": "med lokale endringer"
   },
 
   "chrome_extension_name": {
@@ -52,7 +52,7 @@
     "message" : "Lukk fullskjermsvisning"
   },
   "chrome_extension_description": {
-    "message": "A reader for EPUB3 books."
+    "message": "Et leseverktøy for EPUB3-bøker."
   },
   "ok" : {
     "message" : "Ok"
@@ -67,7 +67,7 @@
     "message" : "Sletter"
   },
   "migrate_dlg_title" : {
-    "message" : "Migrating Books"
+    "message" : "Migrerer bøker"
   },
   "migrate_dlg_message" : {
     "message" : "Laster informasjon..."
@@ -76,10 +76,10 @@
     "message" : "Migrerer"
   },
   "replace_dlg_title" : {
-    "message": "Conflict Detected"
+    "message": "Konflikt oppdaget"
   },
   "replace_dlg_message": {
-    "message": "If you continue, the following epub will be replaced with the one you are importing"
+    "message": "Hvis du fortsetter, blir denne EPUB-filen erstattet med den du importerer"
   },
   "import_dlg_title" : {
     "message": "Importerer EPUB"
@@ -88,28 +88,28 @@
     "message": "Undersøker EPUB-innhold..."
   },
   "storing_file" : {
-    "message": "Storing file"
+    "message": "Lagrer fil"
   },
   "err_unknown" : {
-    "message": "Unknown error. Check console for more details."
+    "message": "Ukjent feil. Se konsollen for mer informasjon."
   },
   "err_storage" : {
-    "message": "Unable to access storage"
+    "message": "Får ikke tilgang til lagringsplassen"
   },
   "err_epub_corrupt" : {
-    "message": "Invalid or corrupted EPUB package"
+    "message": "Ugyldig eller ødelagt EPUB-pakke"
   },
   "err_ajax": {
-    "message": "Error in ajax request"
+    "message": "Feil i ajax-forespørsel"
   },
   "err_dlg_title" : {
-    "message": "Uforventet feil"
+    "message": "Uventet feil"
   },
   "replace" : {
     "message": "Erstatt"
   },
   "gethelp" : {
-    "message" : "If you encounter any problems, have questions, or would like to say hello, visit <a href=\"http://idpf.org/forums/readium\">our forum</a>"
+    "message" : "Har du problemer eller spørsmål, eller vil du bare si hei? Besøk <a href=\"http://idpf.org/forums/readium\">forumet vårt</a>"
   },
   "i18n_readium_library" : {
     "message" : "Bibliotek "
@@ -133,7 +133,7 @@
     "message" : "Vennligst last siden på nytt for at hurtigtaster skal ta effekt."
   },
   "i18n_keyboard_onerror_reset" : {
-    "message" : "Please note: Any shortcuts marked INVALID or DUPLICATE have been reset to original values."
+    "message" : "Merk: Snarveier som er merket UGYLDIG eller DUPLIKAT, er satt tilbake til standardverdiene."
   },
   "i18n_reset_key" : {
     "message" : "Nullstill tast"
@@ -148,13 +148,13 @@
     "message" : "UGYLDIG"
   },
   "i18n_paginate_all" : {
-    "message" : "Paginate all reflowable ePUB content"
+    "message" : "Del alt flytende EPUB-innhold inn i sider"
   },
   "i18n_automatically" : {
-    "message" : "Automatically open *.epub urls in readium"
+    "message" : "Åpne *.epub-lenker automatisk i leseverktøyet"
   },
   "i18n_show_warning" : {
-    "message" : "Show warning messages when unpacking EPUB files"
+    "message" : "Vis advarsler når EPUB-filer pakkes ut"
   },
   "i18n_details" : {
     "message" : "Detaljer"
@@ -205,13 +205,13 @@
     "message" : "Legg elementer i biblioteket her!"
   },
   "i18n_extracting" : {
-    "message" : "extracting: "
+    "message" : "pakker ut: "
   },
   "i18n_are_you_sure" : {
-    "message" : "Are you sure you want to permanently delete "
+    "message" : "Er du sikker på at du vil slette for godt: "
   },
   "i18n_add_book_to_readium_library" : {
-    "message" : "Add Book To Readium Library:"
+    "message" : "Legg til bok i biblioteket:"
   },
   "i18n_add_book" : {
     "message" : "Legg til i bibliotek"
@@ -220,22 +220,22 @@
     "message" : "Avbryt"
   },
   "i18n_from_the_web" : {
-    "message" : "From the web:"
+    "message" : "Fra nettet:"
   },
   "i18n_from_local_file" : {
-    "message" : "From Local File:"
+    "message" : "Fra lokal fil:"
   },
   "i18n_enter_a_url" : {
-    "message" : "Enter a URL to a .epub file"
+    "message" : "Skriv inn en URL til en .epub-fil"
   },
   "i18n_unpacked_directory" : {
-    "message" : "Unpacked Directory:"
+    "message" : "Utpakket mappe:"
   },
   "i18n_validate" : {
-    "message" : "Validate:"
+    "message" : "Valider:"
   },
   "i18n_confirm_that_this_book" : {
-    "message" : "Confirm that this book complies with ePUB standards"
+    "message" : "Bekreft at boken følger EPUB-standarden"
   },
   "i18n_single_pages" : {
     "message" : "Enkeltsider"
@@ -292,7 +292,7 @@
     "message" : "Vancouver Mist"
   },
   "i18n_display_format" : {
-    "message" : "Visningformat"
+    "message" : "Visningsformat"
   },
   "i18n_spread_auto" : {
      "message" : "Auto"
@@ -311,22 +311,22 @@
   },
 
   "i18n_page_transition" : {
-    "message" : "PAGE EFFECTS"
+    "message" : "Sideeffekter"
   },
   "i18n_page_transition_none" : {
-    "message" : "Disabled"
+    "message" : "Skrudd av"
   },
   "i18n_page_transition_fade" : {
-    "message" : "Fade"
+    "message" : "Ton ut"
   },
   "i18n_page_transition_slide" : {
-    "message" : "Slide"
+    "message" : "Gli"
   },
   "i18n_page_transition_swoosh" : {
-    "message" : "Swoosh"
+    "message" : "Sveip"
   },
   "i18n_page_transition_butterfly" : {
-    "message" : "Butterfly"
+    "message" : "Sommerfugl"
   },
 
   "i18n_html_readium_tm_a_project" : {
@@ -351,10 +351,10 @@
     "message" : "Pause"
   },
   "i18n_audio_play_background" : {
-    "message" : "Play background track"
+    "message" : "Spill av bakgrunnslyd"
   },
   "i18n_audio_pause_background" : {
-    "message" : "Pause background track"
+    "message" : "Sett bakgrunnslyden på pause"
   },
   "i18n_audio_previous" : {
     "message" : "Forrige lydklipp"
@@ -372,7 +372,7 @@
     "message" : "Minsk lydstyrke"
   },
   "i18n_audio_time" : {
-    "message" : "Audio time cursor"
+    "message" : "Tidspunkt i lydklippet"
   },
   "i18n_audio_mute" : {
     "message" : "Lyd av"
@@ -412,7 +412,7 @@
     "message" : "Aktiver automatisk sidevending"
   },
   "i18n_auto_page_turn_disable" : {
-    "message" : "Dektiver automatisk sidevending"
+    "message" : "Deaktiver automatisk sidevending"
   },
 
   "i18n_playback_scroll_enable" : {
@@ -426,7 +426,7 @@
     "message" : "Aktiver trykk-for-å-spille-av"
   },
   "i18n_audio_touch_disable" : {
-    "message" : "Dektiver trykk-for-å-spille-av"
+    "message" : "Deaktiver trykk-for-å-spille-av"
   },
   "i18n_audio_highlight_default" : {
     "message" : "Standard"
@@ -435,7 +435,7 @@
     "message" : "Farge på tekstbakgrunn"
   },
   "i18n_audio_sync" : {
-    "message" : "Text/audio synchronization granularity"
+    "message" : "Synkronisering av tekst og lyd"
   },
   "i18n_audio_sync_default" : {
     "message" : "Standard"
@@ -459,13 +459,13 @@
     "message" : "Sidenavigering"
   },
   "i18n_ChromeApp_deprecated_dialog_title" : {
-    "message" : "Readium Chrome App - WARNING"
+    "message" : "Readium Chrome-app - ADVARSEL"
   },
   "i18n_ChromeApp_deprecated_dialog_HTML" : {
-    "message" : "<p><strong><u>IMPORTANT:</u></strong></p><p>This is the final release of the Readium Chrome App. Google decided to remove support for \"apps\" in the Chrome Web Browser, as <a href=\"https://developer.chrome.com/apps/migration\" target=\"_blank\">explained here</a>.</p> <p>At some point, Google will completely disable existing Chrome apps. This is unfortunately outside of Readium's control.</p> <p>Consequently, please consider using alternative software to read EPUB files. Visit the <a href=\"https://readium.org/about/applications.html/\" target=\"_blank\">Readium website</a> for suggestions.</p>"
+    "message" : "<p><strong><u>VIKTIG:</u></strong></p><p>Dette er den siste versjonen av Readium Chrome-appen. Google har bestemt seg for å fjerne støtte for «apper» i nettleseren Chrome, som <a href=\"https://developer.chrome.com/apps/migration\" target=\"_blank\">forklart her</a>.</p> <p>På et tidspunkt vil Google slå av alle eksisterende Chrome-apper. Dette kan Readium dessverre ikke gjøre noe med.</p> <p>Vurder derfor å bruke annen programvare for å lese EPUB-filer. Besøk <a href=\"https://readium.org/about/applications.html/\" target=\"_blank\">nettstedet til Readium</a> for forslag.</p>"
   },
   "chrome_accept_languages": {
-    "message": "$CHROME$ accepts $languages$ languages",
+    "message": "$CHROME$ godtar $languages$ språk",
     "placeholders": {
       "chrome": {
         "content": "Chrome",
